@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  celebal,
+  codechef,
+  infosys,
+  internshala,
+  gurukul,
+  simmi,
+  portfolio,
+  atm,
   threejs,
+  university,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Java Fullstack Developer",
     icon: creator,
   },
 ];
@@ -116,50 +118,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Javascript.js Developer",
+    company_name: "infosys",
+    icon: infosys,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2024 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed an intelligent virtual assistant using modern web technologies (HTML,CSS, Javascript.",
+      "This project leverages browser APIs to access PC features, including",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tools Used: ThreeJS , React Three Fiber ,TailwindCSS , Framer Motion.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Javafullstack",
+    company_name: "Codechef",
+    icon: codechef,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2024 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "University Management System Java Project deals with the maintenance of student faculty.",
+      "faculty and other information with in the university in a centralized database.",
+      "where you can add, view and update Information.",
+      "Technologies Used: Core Java (Swing & AWT) Database Used: MySQL.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Internshala",
+    icon: internshala,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2025 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "A comprehensive, full-stack e-learning platform built using the MERN stack (MonggoDb Express.js, React, Node.js).",
+      "",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Celebal ",
+    icon: celebal,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - June 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -173,7 +176,7 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Dr.Rachna Aggarwal",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -181,7 +184,7 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Abhay Gupta",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -189,7 +192,7 @@ const testimonials = [
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Swati Jaiswal",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -198,9 +201,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "e-Gurukul(lms)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A comprehensive, full-stack e-learning platform built using the MERN stack (MongoDB,Express.js, React, Node.js).",
     tags: [
       {
         name: "react",
@@ -215,16 +218,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gurukul,
+    source_code_link: "https://github.com/ammitt23/e-Gurukul",
   },
   {
-    name: "Job IT",
+    name: "Simmi!, a web based virtual assistant",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed an intelligent virtual assistant using modern web technologies (HTML,CSS, JavaScript) that runs directly in the browser..",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
@@ -232,33 +235,93 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: simmi,
+    source_code_link: "https://github.com/ammitt23/virtul-Assitant",
   },
+
   {
-    name: "Trip Guide",
+    name: "3d Portfolio!",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D DeveloperPortfolio!",
     tags: [
       {
-        name: "nextjs",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Farmer Motion",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Three.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React Three fibre",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/ammitt23/3d_portfolio",
+  },
+
+  {
+    name: "Bank management System",
+    description: ".",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JDBC",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mysql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AWT EVENT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: atm,
+    source_code_link: "https://github.com/ammitt23/bank-management-system",
+  },
+  {
+    name: "University management System",
+    description:
+      "University Management System Java Project deals with the maintenance of student,faculty and other information with in the university in a centralized databasewhere you can add, view and update Information.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JDBC",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AWT EVENT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: university,
+    source_code_link:
+      "https://github.com/ammitt23/university-management-system",
   },
 ];
 

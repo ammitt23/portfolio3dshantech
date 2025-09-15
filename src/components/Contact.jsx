@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-// template_pk57q5l
+// template_wwyo14q
 // service_mw1yk77
 // zZYM7b1ebIci5QlG5
 const Contact = () => {
@@ -37,7 +37,7 @@ const Contact = () => {
     emailjs
       .send(
         "service_mw1yk77",
-        "template_6rdu6al",
+        "template_wwyo14q",
         //import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
